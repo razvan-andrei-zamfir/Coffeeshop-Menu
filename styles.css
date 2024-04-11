@@ -1,7 +1,13 @@
 body {
-    background-image: url(coffee-1324126_1920.jpg);
+    background-image: url(coffee-beans-926837.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
     font-family: sans-serif;
     padding: 20px;
+    min-width: 200px;
+    overflow: hidden;
   }
   
   h1 {
@@ -94,4 +100,14 @@ body {
   
   a:active {
     color: brown;
+  }
+
+  @media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 35px;
+    }
+
+    h2 {
+      font-size: 25px;
+    }
   }
